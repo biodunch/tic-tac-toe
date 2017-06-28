@@ -13,7 +13,7 @@ class Square extends React.Component {
   }
 
   handleClick(){
-    this.setState({value:'X'})
+    this.setState({value:'X'});
   }
 
   render() {
@@ -27,7 +27,7 @@ class Square extends React.Component {
 
 class Board extends React.Component {
   renderSquare(i) {
-    return <Square value={i} />;
+    return <Square value={i}  />;
   }
 
   render() {
